@@ -1,0 +1,120 @@
+#container{
+  position: absolute;
+  height: 1733px;
+  width: 1080px;
+  top: 0px;
+  left: 0px;
+}
+
+#outerMostDiv {
+  position: absolute;
+  height: 568px;
+  width: 1080px;
+  left: 0px;
+  top: 942px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+#innerMostDiv {
+  overflow-x: hidden;
+  position: absolute;
+  height: 568px;
+  top: 0;
+  left: 0;
+  width: 1060px;
+}
+
+
+/* CSS for image*/
+#ISI_guts {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 1060px;
+  /* margin: 4px 0 0 32px; */
+}
+
+
+#innerMostDiv::-webkit-scrollbar {
+  -webkit-appearance: none;
+  display: none;
+}
+
+#innerMostDiv::-webkit-scrollbar:vertical {
+  width: 12px;
+  display: none;
+}
+
+#innerMostDiv::-webkit-scrollbar:horizontal {
+  height: 12px;
+  display: none;
+}
+
+#innerMostDiv::-webkit-scrollbar-thumb {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color:#46C5B5;
+  border-radius: 10px;
+
+  border: 2px solid #D8D8D8;
+}
+
+#innerMostDiv::-webkit-scrollbar-track {
+  border-radius: 10px;
+
+  background-color: #D8D8D8;
+}
+
+.scroller {
+    position: absolute;
+    cursor: pointer;
+    width: 10px;
+    height: 15px;
+    top: 0;
+    margin-top: 0px;
+    right: -7px;
+    background: #e05b43;
+    /* border-radius: 50px; */
+    transition: top 0.08s;
+    -moz-transition: top 0.08s;
+    -ms-transition: top 0.08s;
+    -o-transition: top 0.08s;
+    transition: top 0.08s;
+ 
+}
+
+.scrollerbg {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+}
+
+.isiLineWithArrows {
+    background: white;
+    border-radius: 0;
+    top: 10%;
+    right: 0px;
+    height: 95%;
+    width: 5px;
+    cursor: pointer;
+}
+
+.isiLineNoArrows {
+    background: #b8bebc;
+    /* border-radius: 50px; */
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 5px;
+    cursor: pointer;
+}
+
+#isi-controls {
+  right: 40px;
+  height: 550px;
+  width: 0px;
+  position: absolute;
+  top: 10px;
+  z-index: 999;
+}
+

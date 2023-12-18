@@ -1,0 +1,68 @@
+#main{
+    position: absolute;
+    top: 736px;
+    left: 654px;
+    /* background-color: yellow; */
+    opacity: 1;
+    height: 111px;
+    width: 409px;
+    cursor: pointer;
+}
+
+#mainPI{
+    position: absolute;
+    top: 1637px;
+    left: 658px;
+    /* background-color: red; */
+    opacity: 1;
+    height: 72px;
+    width: 409px;
+    cursor: pointer;
+
+}
+
+#mainMG{
+    position: absolute;
+    top: 1546px;
+    left: 660px;
+    /* background-color: pink; */
+    opacity: 1;
+    height: 77px;
+    width: 409px;
+    cursor: pointer;
+
+}
+
+#pi{
+    position: absolute;
+    top: 1475px;
+    left: 13px;
+    /* background-color: purple; */
+    opacity: 1;
+    height: 50px;
+    width: 378px;
+    cursor: pointer;
+
+}
+
+#mg{
+    position: absolute;
+    top: 1461px;
+    left: 509px;
+    /* background-color: purple; */
+    opacity: 1;
+    height: 50px;
+    width: 378px;
+    cursor: pointer;
+
+}
+
+#fda{
+    position: absolute;
+    top: 1328px;
+    left: 597px;
+    /* background-color: red; */
+    opacity: 1;
+    height: 50px;
+    width: 252px;
+}
